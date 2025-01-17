@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+ <html><head>
+        <title>Formulier</title>
+        <link rel="stylesheet" href="style.css">
+</head>  
+    <body>
+            <div class="nav">
+                <a href="index.html"> Startpunt</a>
+                <a href="opdrachten.html">Opdracht</a>
+                <a class="active" href="formulier.html">Formulier</a>
+                <img src="images/stad.png">
+            </div>
+
+<div class="HelloR" style="text-align:center;">
+    <h2>Op dit pagina zult u antwoorden geven,<br> over de plekken die u heeft bezocht.  </h2>
+    <p style="text-align:center;">Als u geen antwoord weet het is geen probleem, u kunt in ieder geval iets intypen. Heel veel succes!</p>
+</div>
+<form><input type="text" id="prank" placeholder="Hoeveel banken waren er in het park?">
+    <script> 
+        // Correcte JavaScript met kleine foutjes hersteld
+        const inputField = document.getElementById("prank"); // Correcte hoofdlettergebruik voor 'getElementById'
+    
+        // Eventlistener voor focus
+        inputField.addEventListener("focus", function() {
+            inputField.placeholder = "Welke plekje vindt u het leukst in Belt park?";
+        });
+    
+        // Eventlistener voor blur (verlaat het veld)
+        inputField.addEventListener('blur', function(){  // Correcte spelling: addEventListener ipv addEventlListener
+            if (inputField.value === '') {  // Gebruik '===' voor striktere vergelijking
+                inputField.placeholder = "Hoeveel banken waren er in het park?";
+            }
+        });
+    </script>
+</form>
+<hr>
+<form>
+    <input type=text placeholder="In welke jaar was Oude Pomp ingesteld?">
+</form>
+<hr>
+<form><input type=text placeholder="Wat vind u van een prachtige kerk die u heeft bezocht?">
+   </form><
+   <hr>
+<form><input type=text placeholder="Welke bloemen heeft u gezien ten lope wandelen naar bollenstreek veld?"></form>
+<hr>
+<form><input type=text placeholder="Wat vindt u van dit activiteit?"></form>
+<hr>
+<form><input type=text name="email" placeholder="Uw email"></form>
+<hr>
+<form><input type="text" name="name" placeholder="Uw naam"></form>
+<hr>
+
+<form><button type="submit">STUREN</button></form>
+
+    </body>      
+</html>

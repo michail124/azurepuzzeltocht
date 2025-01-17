@@ -1,0 +1,223 @@
+* {
+    background-color:antiquewhite;
+    color:black;
+}
+ /*Adding the black bg color to the top navigation*/
+ .nav {
+    background-color: darkolivegreen;
+    overflow:hidden;
+    width:100%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size:23px;
+    border-radius:14px;
+ }
+ .linkje {
+   background:linear-gradient(45deg,olive,darkolivegreen);
+   overflow:hidden;
+   width:50%;
+   float:center;
+   justify-content:center;
+   align-items:center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size:33px;
+   font-weight:bolder;
+   border-radius:55px;
+   display:flex;
+   margin: 0 auto;
+   height:100px;
+ }
+.linkje a{
+   padding:14px;
+   border-radius:22px;
+   background-color: olivedrab;
+   color:lightgreen;
+   display:inline-block;
+ }
+ .linkje a:hover {
+   background:linear-gradient(885deg,olive,darkolivegreen);
+border-radius: 22px;
+color:rgb(238, 63, 63);
+ }
+ .nav img {
+   height:70px;
+   width:30%;
+ }
+ .Hello h1 {
+   font-size:45px;
+   color:brown;
+   background-color: rgb(253, 253, 201);
+   text-align:center;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius:15px;
+ }
+.HelloL p {
+   font-family:'Times New Roman', Times, serif;
+   font-size:28px;
+   color:green;
+   background-color:burlywood;
+   border-radius: 15px;
+   padding:22px;
+   text-align: right;
+   
+}
+.HelloR p {
+   font-family:'Times New Roman', Times, serif;
+   font-size:28px;
+   color:green;
+   background-color:burlywood;
+   border-radius: 15px;
+   padding:11px;
+   text-align: right;
+   
+}
+
+.HelloL p {
+   font-family:'Times New Roman', Times, serif;
+   font-size:28px;
+   color:green;
+   background-color:burlywood;
+   border-radius: 15px;
+   padding:22px;
+   text-align: left;
+   
+}
+
+ /* Styling the links of navigation bar*/
+ .nav a{
+    float:left;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+    width:20%;
+    border-radius:15px
+ }
+
+ /*styling the links during the hover*/
+ .nav a:hover {
+    background-color:darkolivegreen;
+    color:lightsalmon;
+    border:rgb(10, 39, 4) 1px dotted;
+    border-radius:15px;
+
+ }
+
+ /*adding the specialized color for curent link where we now are*/
+ .nav a.active {
+    background-color:lightgoldenrodyellow;
+    color:green;
+    font-size:125%;
+    border-radius:15px;
+ }
+ aside {
+   float:right;
+   width:50%;
+   padding-left:15px;
+   margin-left:15px;
+   height:90%;
+   color: chocolate;
+   background: linear-gradient(olive, darkolivegreen);
+   font-weight: bold;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 10px;
+   margin:0px;
+   text-align:center;
+   font-size:80%;
+ }
+ aside.left {
+   float:left;
+    width:60%;
+    padding-left:15px;
+    margin-left:15px;
+    height: 255pxpx;
+    font-weight:bold;
+    color:chocolate;
+    background: linear-gradient(darkolivegreen, olive);
+    border-radius:10px;
+    margin:0px;
+    text-align: center;
+    font-size:80%;
+ }
+ article, p {
+
+   color:brown;
+   background-color: rgb(253, 253, 201);
+   border-radius:10px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+article, h2 {
+   color:darkgoldenrod;
+   background-color: rgb(253, 253, 201);
+   border-radius:10px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ footer {
+   margin-top:10%;
+   float:right;
+ }
+article {
+   height:255px;
+}
+hr { 
+   background-color:bisque;
+   height:13px;
+   margin:20px,0;
+   border:dotted olive 2px;
+   border-radius:22px;
+}
+figure, figcaption {
+   border-radius:33px;
+}
+img {
+   border-radius: 50px;
+}
+form {
+   background:linear-gradient(44deg, green, olive);
+   border-radius:44px;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content: center;
+   padding:20px;
+   height:12px;  
+
+}
+button{
+   background:linear-gradient(44deg,orange, lightgoldenrodyellow);
+   border-radius:45px;
+}
+button:hover{
+   background:linear-gradient(11deg,orangered, orange)
+}
+button:active{
+   background:linear-gradient(55deg, lightgreen, indigo)
+}
+input {
+   background: rgba(128, 128, 0, 0.4);
+   color:orange;
+   width: 80%;
+   padding:10px;
+   text-align: center;
+   margin:10px 0;
+   border:none;
+   border-radius:55px;
+ 
+
+}
+input:hover{
+   border:dashed 2px goldenrod;
+}
+input::placeholder {
+   color:orangered;
+   width:100%;
+   text-align:center;
+   text-indent: 0;  
+   display:flex;
+   justify-content:center;
+   text-align: center;
+
+}
+
